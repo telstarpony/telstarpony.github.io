@@ -7,8 +7,23 @@ oriented = function(e) {
         }   else  { 
             compassHeading = e.alpha;
         }
-        
-         text_area.textContent = compassHeading;
+        //text_area.textContent = compassHeading;
+
+        if(compassHeading > 315 || compassHeading < 45) {
+                text_area.textContent = compassHeading;
+        }
+
+        if(compassHeading >= 45 && compassHeading < 135) {
+                text_area.textContent = "To the Eclipse - a nest";
+        }
+
+        if(compassHeading >= 135 && compassHeading < 225) {
+                text_area.textContent = "To the Souvenir - a platform";
+        }
+
+        if(compassHeading >= 225 && compassHeading < 315) {
+                text_area.textContent = "To the Wheelhouse - a vortex";
+        }
         //calls function to alter content based on heading
        // myOrientation();
     }
