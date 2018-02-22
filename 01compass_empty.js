@@ -14,15 +14,15 @@ oriented = function(e) {
         }
 
         if(compassHeading >= 45 && compassHeading < 135) {
-                text_area.textContent = "To the Eclipse - a nest                                                                                                   CLose your eyes ";
+                text_area.textContent = "To the Eclipse - a nest                                                                                                   Close your eyes ";
         }
 
         if(compassHeading >= 135 && compassHeading < 225) {
-                text_area.textContent = "To the Souvenir - a platform                                                                                                                                                            Breathe";
+                text_area.textContent = "To the Souvenir - a platform                                                                                                                                                                        Breathe";
         }
 
         if(compassHeading >= 225 && compassHeading < 315) {
-                text_area.textContent = "To the Wheelhouse - a vortex                                                                                                                                                             Tumble";
+                text_area.textContent = "To the Wheelhouse - a vortex                                                                                                                                                                                                                                 Tumble";
         }
         //calls function to alter content based on heading
        // myOrientation();
